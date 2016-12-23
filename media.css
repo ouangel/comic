@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+IE viewport - sets the viewport to the ideal viewport width for 
+              Windows Phone devices running IE
+				 
+- The code for the IE viewport from the book:
+  --> The Mobile Web Handbook
+	  by: Peter-Paul Koch
+	  pg: 111
+	  web: https://shop.smashingmagazine.com/mobile-web-handbook.html 
+					 
+*/
+
+@-ms-viewport {
+	width: device-width;	
+}
+
+
+main {
+	display: block/;	
+}
+
+/* End Set Main tag to display block */
+
+/* Box Sizing Reset */
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+/* End Box Sizing Reset */
+
+	
+@media only screen and (min-width:568px) and (max-width:768px) {
+
+.fifita {
+	height:250px;
+	width:auto;
+}
+
+}
+
+
+
+@media only screen and (max-width:568px){
+.fifita {
+	height:100px;
+	width:auto;
+}
+
+}
